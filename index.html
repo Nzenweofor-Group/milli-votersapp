@@ -5,23 +5,31 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
 	<header>
-		<nav>
-			<div class="logo">
-				<img src="./images/logo.svg" alt="Logo">
-			</div>	
-			<div class="navbar">
-				<ul class="nav-menu">
-					<li class="active"><a href="#">Templates</a></li>
-					<li><a href="#">Features</a></li>
-					<li><a href="#">How it works?</a></li>
-					<li><a href="#">Pricing</a></li>
-					<li><button class="sec-button"><a href="#">Login</button></a></li>
-					<li><a href="#">Sign up</a></li>
-				</ul>		
-			</div>	
-		</nav>
+		<nav class="navbar">
+		<span class="navbar-toggle" id="js-navbar-toggle">
+			<img src="./images/menu.svg"></i>
+		</span>		
+		<a href="#" class="logo">
+			<img src="./images/logo.png" alt="Logo">
+		</a>	
+		<ul class="main-nav" id="js-menu">
+			<li>
+				<a href="#" class="nav-links">Templates</a></li>
+			<li>
+				<a href="#" class="nav-links">Features</a></li>
+			<li>
+				<a href="#" class="nav-links">How it works?</a></li>
+			<li>
+				<a href="#" class="nav-links">Pricing</a></li>
+			<li>
+				<button class="sec-button">
+					<a href="signin.html" class="nav-links">Login
+					</button></a></li>
+			<li>
+				<a href="signup.html" class="nav-links">Sign up</a></li>
+		</ul>
+	</nav>	
 
 		<div class="header-content">
 			<div class="left-content">
@@ -112,7 +120,7 @@
 			</div>
 			<div class="edu-video">
 				<div class="video-container">
-					<video width="1030" height="420" controls>
+					<video  max-width = "100%" height="420" controls>
 						 <source src="movie.mp4" type="video/mp4">
 						 <source src="movie.ogg" type="video/ogg">
 						Your browser does not support the video tag.
@@ -320,4 +328,5 @@
 	</footer>
 			
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>
